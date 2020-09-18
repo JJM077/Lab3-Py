@@ -7,7 +7,7 @@
 
 def sum_n(n): 
   if (n==0):
-    return
+    return 0
   else:
     return n + sum_n(n-1)
 
@@ -17,11 +17,11 @@ def print_n(s,n):
     print_n(s,n-1)
 
 
-def run()
+def run():
   n = int(input("Enter an int: "))
   print(f"sum is {sum_n(n)}.")
   s = input("Enter a string: ")
   print(f"{print_n(s,n)}")
 
-  if__name__ == "__main__":
-    run()
+if __name__ == "__main__":
+  run()
